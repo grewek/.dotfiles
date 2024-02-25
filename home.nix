@@ -2,7 +2,8 @@
 
 {
   imports = [ 
-    ./user/terminals/kitty/kitty.nix
+    ./user/devops/gitkraken/gitkraken.nix
+    ./user/terminal/kitty/kitty.nix
     ./user/wm/hyprland/hyprland.nix
     ./user/shell/shell.nix # Import ZSH and Oh-my-zsh settings
   ];
