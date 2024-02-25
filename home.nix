@@ -2,6 +2,7 @@
 
 {
   imports = [ 
+    ./user/terminals/kitty/kitty.nix
     ./user/wm/hyprland/hyprland.nix
     ./user/shell/shell.nix # Import ZSH and Oh-my-zsh settings
   ];
@@ -74,15 +75,15 @@
     # EDITOR = "emacs";
   };
 
-  programs.kitty = {
-      enable = true;
-      theme = "Catppuccin-Mocha";
-  };
+  #programs.kitty = {
+  #    enable = true;
+  #    theme = "Catppuccin-Mocha";
+  #};
 
-  programs.kitty.font = {
-      name = "JetBrains Mono";
-      size = 12;
-  };
+  #programs.kitty.font = {
+  #    name = "JetBrains Mono";
+  #    size = 13;
+  #};
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
