@@ -2,6 +2,7 @@
 
 {
   imports = [ 
+    ./user/wm/hyprland/hyprland.nix
     ./user/shell/shell.nix # Import ZSH and Oh-my-zsh settings
   ];
   # Home Manager needs a bit of information about you and the paths it should
